@@ -5,3 +5,101 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Styling for the website header */
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1
+}
+
+header span {
+  padding: 10px 20px;
+}
+
+header a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+}
+
+/* Styling for the Jumbotron (Not programmed with BootStrap) */
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  background-size: cover;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  width: 1200px;
+  background-color: black;
+  margin: 0;
+}
+
+.mission h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Styling for Tea of the Month Section */
+
+.teabox {
+  width: 1000px;
+  text-align: center;
+}
+
+.teabox h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.teazone {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teabag {
+  display: flex;
+  flex-direction: column;
+}
+
+.teabag img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+  padding-top: 10px;
+}
